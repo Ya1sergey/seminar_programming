@@ -8,7 +8,7 @@
 // -7 -> 49
 
 
-Console.WriteLine("Введите целое  число");
-int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Квадрат числа равен {x} = {x * x}");
+Console.WriteLine("Введите целое число");
+int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Квадрат числа равен {num} = {num * num}");
 // Console.WriteLine(x * x);
