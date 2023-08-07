@@ -3,38 +3,41 @@
 // 3 -> Среда
 // 5 -> Пятница
 
-Console.WriteLine("Введите порядковый номер недели");
-int num = Convert.ToInt32(Console.ReadLine());;
+Console.WriteLine("Введите порядковый номер дня недели");
+int num = Convert.ToInt32(Console.ReadLine());
 
-if (num >= 1 && num <= 7)
+if (num <= 7 && num >= 1)
 {
     if (num == 1)
     {
-        Console.WriteLine("Понеделник");
+        Console.WriteLine("Понедельник");
     }
-    else if (num == 2) 
+    if (num == 2)
     {
-                Console.WriteLine("Вторник");
+        Console.WriteLine("Вторник");
     }
-        else if (num == 3) 
+    if (num == 3)
     {
-                Console.WriteLine("Среда");
+        Console.WriteLine("Среда");
     }
-    else if (num == 4) 
+    if (num == 4)
     {
-                Console.WriteLine("Четверг");
+        Console.WriteLine("Четверг");
     }
-    else if (num == 5) 
+    if (num == 5)
     {
-                Console.WriteLine("Пятница");
+        Console.WriteLine("Пятница");
     }
-    else if (num == 6) 
+    if (num == 6)
     {
-                Console.WriteLine("Суббота");
+        Console.WriteLine("Суббота");
     }
-    else if (num == 7) 
+    if (num == 7)
     {
-                Console.WriteLine("Воскресенье");
+        Console.WriteLine("Воскресенье");
     }
 }
-else Console.WriteLine("Вы ввели некорректное число");
+else
+{
+    Console.WriteLine("Вы ввели неверный номер");
+}
