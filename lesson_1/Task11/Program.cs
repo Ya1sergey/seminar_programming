@@ -9,10 +9,13 @@ int number = new Random().Next(100, 1000);
 int result = MinusDigit2(number);
 Console.WriteLine($"{number} -> {result}");
 
+// int nubmer2 = (number / 100 * 10) + (number % 10);
+// Console.WriteLine(nubmer2);
+
 int MinusDigit2(int num)
 {
-    int Digit1 = num / 100;
-    int Digit3 = num % 10;
+int Digit1 = num / 100;
+int Digit3 = num % 10;
 
-    return Digit1 * 10 + Digit3;
+return Digit1 * 10 + Digit3;
 }
