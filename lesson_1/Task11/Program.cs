@@ -14,8 +14,8 @@ Console.WriteLine($"{number} -> {result}");
 
 int MinusDigit2(int num)
 {
-int Digit1 = num / 100;
-int Digit3 = num % 10;
+    int Digit1 = num / 100;
+    int Digit3 = num % 10;
 
-return Digit1 * 10 + Digit3;
+    return Digit1 * 10 + Digit3;
 }
