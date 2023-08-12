@@ -7,7 +7,7 @@ Console.WriteLine("Введите трехзначное число");
 int num = Convert.ToInt32(Console.ReadLine());
 
 
-if (num >= 100 && num <= 999)
+if (num >= 100 && num <= 999 || num <= -100 && num >= -999)
 {
 int num2 = Digit2(num);
 Console.WriteLine($"Вторая цифра числа: {num2}");
