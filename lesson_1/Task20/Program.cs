@@ -1,7 +1,6 @@
 ﻿// // double d = 5.099864545;
 // // double dRound = Math.Round(d, 2, MidpointRounding.ToZero);
 // // Console.WriteLine(dRound);
-
 // // double sqrt = Math.Sqrt(5);
 
 // Задача 20: Напишите программу, которая
